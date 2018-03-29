@@ -9,6 +9,7 @@ import org.apache.camel.component.gson.GsonDataFormat;
  * Created by z001qgd on 12/21/17.
  */
 public class AggregateWithCompletionPredicateRoute extends RouteBuilder{
+
     public void configure() throws Exception {
 
         GsonDataFormat dataFormat = new GsonDataFormat(Order.class);
